@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&family=Oswald:wght@300&family=Rubik&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Header</title>
+  </head>
+  <body>
+    <header id="home">
+      <nav class="navbar navbar-expand-lg na">
+        <div class="container">
+          <a class="navbar-brand" href="#">BookDigi</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="index.html#home"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html#trending">Trending</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html#review">Reviews</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"> Free read </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"> Store </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Cart</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input
+                class="px-2 search"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn0" type="submit">Search</button>
+            </form>
+            <div class="icons">
+              <i class="fa fa-user" id="login-btn"></i>
+            </div>
+            <div class="icons">
+              <i class="fa fa-user-plus" id="signup-btn"></i>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div class="login-form-container">
+        <i class="fas fa-times" id="form-close"></i>
+        <form action="">
+          <h3>Login</h3>
+          <input type="email" class="box" placeholder="Enter you email" />
+          <input type="password" class="box" placeholder="Enter you password" />
+          <input type="checkbox" id="remember" />
+          <label for="remeber">Remember me</label>
+          <input type="submit" value="login now" class="btn" />
+          <p>Forget password?<a href="#"> click here</a></p>
+          <p>Don't have account?<a href="signup.html"> register now</a></p>
+        </form>
+      </div>
+      <div class="login-form-container sign">
+        <i class="fas fa-times forms-close" id="form-close"></i>
+        <form action="">
+          <h3>CREATE YOUR ACCOUNT</h3>
+          <input type="name" class="box" placeholder="Enter name" />
+          <input type="email" class="box" placeholder="Enter email id" />
+          <input type="password" class="box" placeholder="Enter passowrd" />
+          <input type="checkbox" id="remember" />
+          <label for="remeber">Confirm password</label>
+          <br />
+          <button class="btn" type="submit">Submit</button>
+        </form>
+      </div>
+    </header>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+      crossorigin="anonymous"
+    ></script>
+    <script src="javascript.js"></script>
+  </body>
+</html>
