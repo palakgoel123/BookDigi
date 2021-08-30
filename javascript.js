@@ -124,6 +124,7 @@ function setItems(product) {
     };
   }
   localStorage.setItem("productsInCart", JSON.stringify(cartItems));
+  alert("Book added to cart");
 }
 function totalCost(product) {
   let cartcost = localStorage.getItem("totalCost");
