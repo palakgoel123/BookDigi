@@ -58,7 +58,9 @@ function show() {
   info.textContent = item.text;
 }
 nextbtn.addEventListener("click", function () {
-  if (current == reviews.length - 1) current = -1;
+  if (current == reviews.length - 1) {
+    current = -1;
+  }
   current++;
   show();
 });

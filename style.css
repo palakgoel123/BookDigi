@@ -66,6 +66,10 @@ font-family: 'Rubik', sans-serif; */
   margin: 1rem;
   margin-left: 2%;
 }
+.login-form-container form #remember2 {
+  margin: 1rem;
+  margin-left: 2%;
+}
 label {
   font-family: "Rubik", sans-serif;
   font-size: 1.1rem;
@@ -113,22 +117,24 @@ label {
   cursor: pointer;
 }
 .navbar-brand {
-  font-size: 3rem;
+  font-size: 2.8rem;
   color: rgb(230, 52, 141);
   font-weight: 200;
   font-stretch: extra-expanded;
   font-family: "Lobster", cursive;
-  margin-left: 0px;
-  margin-right: 2px;
+  margin-left: -2%;
 }
 .navbar-brand:hover {
   color: rgb(194, 7, 100);
+}
+.navbar {
+  background-color: white;
 }
 .nav-link {
   margin-right: 5px;
   margin-left: 5px;
   margin-top: 15px;
-  font-size: medium;
+  font-size: 0.9rem;
   color: black;
   font-family: "Rubik", sans-serif;
   text-transform: uppercase;
@@ -164,7 +170,7 @@ label {
   background: url("https://relationshipone.com/wp-content/uploads/2017/08/iStock-583709876.jpg")
     no-repeat;
   background-size: cover;
-  height: 83vh;
+  height: 84vh;
   width: 100%;
   /* background-position: 50% 50%; */
 }
@@ -192,8 +198,8 @@ h1 {
 }
 .i {
   padding: 10px 15px 10px 15px;
-  height: 75%;
-  margin-bottom: 20px;
+  height: 55%;
+  margin-bottom: 10px;
 }
 .h {
   margin-bottom: 50px;
@@ -210,58 +216,61 @@ h3.c {
   text-align: center;
   font-size: 1.3rem;
 }
+.f {
+  display: flex;
+  justify-content: space-around;
+}
 .card {
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
   border-radius: 20px;
   border: 1px solid rgb(54, 54, 54);
-  padding: 10px 10px 0px 10px;
-  margin-left: 25px;
-  height: 100%;
-  width: 100%;
+  padding: 5px 5px 0px 5px;
+  margin-left: 0.2rem;
+  margin-right: 0.2rem;
+  height: 32.5rem;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+  width: 15rem;
 }
 p.c {
   font-family: "Rubik", sans-serif;
   text-align: center;
-}
-span.c {
-  color: rgb(3, 155, 3);
-  font-size: 1.1rem;
-  margin-left: 8px;
+  font-size: 0.8rem;
+  margin-bottom: -10rem;
 }
 .heading {
   text-align: center;
 }
 .heading span {
-  margin-bottom: 65px;
-  margin-top: 45px;
-  font-size: 2rem;
+  font-size: 1.6rem;
   text-transform: capitalize;
   background: rgba(255, 60, 158, 0.5);
   color: white;
   border-radius: 0.5rem;
   padding: 0.2rem 1rem;
 }
+.navbar-toggler i {
+  color: hotpink;
+  width: 0px;
+  border: none;
+  font-size: 2rem;
+}
+.btn1 a {
+  text-decoration: none;
+  color: white;
+  font-family: "Rubik", sans-serif;
+}
 
 .heading span.space {
   background: none;
 }
-.d {
-  margin-bottom: 100px;
-  margin-top: 35px;
-}
 .second {
   background-color: rgb(255, 236, 245);
-  background-size: cover;
-  height: 98vh;
-  width: 100%;
-  background-position: 50% 50%;
+  padding-bottom: 0.01rem;
 }
 .third {
   background-color: rgb(255, 236, 245);
-  background-size: cover;
-  height: 100vh;
-  width: 100%;
-  background-position: 50% 50%;
+  padding-bottom: 0.01rem;
 }
 .l {
   text-decoration: none;
@@ -269,7 +278,7 @@ span.c {
 }
 h6 {
   font-size: 1rem;
-  margin-top: 10px;
+  margin-top: 2rem;
   color: rgb(235, 233, 233);
   font-family: "Rubik", sans-serif;
 }

@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="https://kit.fontawesome.com/4a3b1f73a2.js"></script>
+    <script src="js/jQuery3.4.1.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&family=Oswald:wght@300&family=Rubik&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./free.css" />
+    <title>BookDigi</title>
+  </head>
+  <body>
+    <div id="1"></div>
+    <script>
+      load("header.html");
+      function load(url) {
+        req = new XMLHttpRequest();
+        req.open("GET", url, false);
+        req.send(null);
+        document.getElementById(1).innerHTML = req.responseText;
+      }
+    </script>
+
+    <section class="arrival">
+      <h1 class="heading"><span class="s">Read Now</span></h1>
+      <div class="store-con">
+        <div class="store">
+          <div class="store-image">
+            <img
+              src="https://kbimages1-a.akamaihd.net/cd5d681a-a30f-4576-be4c-dac1c221c85a/353/569/90/False/romeo-and-juliet-170.jpg"
+              alt=""
+            />
+          </div>
+          <div class="info">
+            <h3 class="inf">Romeo and Juliet</h3>
+            <h4>William Shakespeare</h4>
+            <div class="subinfo">
+              <a
+                href="./freeBook/Shakespeare's-Tragedy-of-Romeo-and-Juliet.pdf"
+                download
+                class="free-book"
+                >Download the pdf</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="store">
+          <div class="store-image">
+            <img
+              src="https://manybooks.net/sites/default/files/styles/220x330sc/public/old-covers/cover-orig-7169.jpg?itok=oeoc-UMU"
+              alt=""
+            />
+          </div>
+          <div class="info">
+            <h3 class="inf">The Mysterious Island</h3>
+            <h4>Jules Verne</h4>
+            <div class="subinfo">
+              <a
+                href="./freeBook/The-Mysterious-Island.pdf"
+                download
+                class="free-book"
+                >Download the pdf</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="store">
+          <div class="store-image">
+            <img
+              src="https://www.ferry.nyc/wp-content/uploads/2017/08/PostcardFront-Mac1617.jpg"
+              alt=""
+            />
+          </div>
+          <div class="info">
+            <h3 class="inf">Macbeth</h3>
+            <h4>William Shakespeare</h4>
+            <div class="subinfo">
+              <a
+                href="./freeBook/Macbeth.pdf"
+                download
+                class="free-book"
+                >Download the pdf</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="store">
+          <div class="store-image">
+            <img
+              src="https://cdn01.sapnaonline.com/product_media/9788172344504/md_9788172344504_300620201142862.jpg"
+              alt=""
+            />
+          </div>
+          <div class="info">
+            <h3 class="inf">Pride and Prejudice</h3>
+            <h4>Jules Verne</h4>
+            <div class="subinfo">
+              <a
+                href="./freeBook/Pride-and-Prejudice.pdf"
+                download
+                class="free-book"
+                >Download the pdf</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <footer class="site-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-6">
+            <h6>About</h6>
+            <p class="text-justify">
+              DIGIBOOK digital book buying and reading website is an awesome
+              platform for readers to get engrossed in uniques stories of people
+              all around and get lost in the world of fantasies.
+            </p>
+          </div>
+          <div class="col-xs-6 col-md-3">
+            <h6>Categories</h6>
+            <ul class="footer-links">
+              <li>
+                <a href="http://scanfcode.com/category/c-language/">Fiction</a>
+              </li>
+              <li>
+                <a href="http://scanfcode.com/category/front-end-development/"
+                  >Crime/Thriller</a
+                >
+              </li>
+              <li>
+                <a href="http://scanfcode.com/category/back-end-development/"
+                  >History</a
+                >
+              </li>
+              <li>
+                <a
+                  href="http://scanfcode.com/category/java-programming-language/"
+                  >Romance</a
+                >
+              </li>
+              <li>
+                <a href="http://scanfcode.com/category/android/">Biography</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-xs-6 col-md-3">
+            <h6>Quick Links</h6>
+            <ul class="footer-links">
+              <li><a href="http://scanfcode.com/about/">About Us</a></li>
+              <li><a href="http://scanfcode.com/contact/">Contact Us</a></li>
+              <li>
+                <a href="http://scanfcode.com/contribute-at-scanfcode/"
+                  >Contribute</a
+                >
+              </li>
+              <li>
+                <a href="http://scanfcode.com/privacy-policy/"
+                  >Privacy Policy</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <hr />
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-sm-6 col-xs-12">
+            <p class="copyright-text">
+              Copyright &copy; 2021 All Rights Reserved by
+              <a href="#">BookDigi</a>.
+            </p>
+          </div>
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <ul class="social-icons">
+              <li>
+                <a class="facebook" href="#"><i class="fab fa-facebook"></i></a>
+              </li>
+              <li>
+                <a class="twitter" href="#"><i class="fab fa-twitter"></i></a>
+              </li>
+              <li>
+                <a class="dribbble" href="#"><i class="fab fa-dribbble"></i></a>
+              </li>
+              <li>
+                <a class="linkedin" href="#"><i class="fab fa-linkedin"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+      crossorigin="anonymous"
+    ></script>
+    <script src="javascript.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
