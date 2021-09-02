@@ -259,10 +259,13 @@
 .cart-q i {
   color: rgb(27, 81, 182);
   padding: 0.55rem;
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 .cart-q .rem {
   color: orange;
+  font-size: 1.3rem;
+  justify-content: center;
+  align-items: center;
 }
 .baskettotal {
   font-weight: bolder;
@@ -280,4 +283,8 @@
 }
 .sec {
   background-color: rgb(255, 236, 245);
+}
+.bt {
+  border: none;
+  background-color: white;
 }

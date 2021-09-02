@@ -158,10 +158,12 @@ function displayCart() {
             item.price
           }/-</strong></td>
           <td class="border align-middle cart-q">
-            <i class="fas fa-chevron-circle-left"></i><strong><span>${
+            <button class="bt"><i class="fas fa-chevron-circle-left"></i></button><strong><span>${
               item.inCart
-            }</span></strong><i class="fas fa-chevron-circle-right"></i>
-                  <i class="fa fa-trash rem"></i>
+            }</span></strong><button class="bt"><i class="fas fa-chevron-circle-right"></button></i>
+                  <button class="btn remove" data-name="${
+                    item.name
+                  }" onClick="cart_remove()"><i class="fa fa-trash rem"></i></button>
                   </td>
                   <td class="border align-middle cart-p"><strong>Rs${
                     item.inCart * item.price
